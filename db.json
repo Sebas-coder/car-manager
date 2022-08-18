@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "placa": "94VCS3",
+      "marca": "Toyota",
+      "modelo": "Supra",
+      "color": "Rojo",
+      "id": "2f3fer3fa4a34"
+    },
+    {
+      "placa": "JF4FJ9",
+      "marca": "Nissan",
+      "modelo": "Skyland",
+      "color": "Rojo",
+      "id": "fjh43liukrht4"
+    },
+    {
+      "placa": "FEVGR9",
+      "marca": "Mitsubishi",
+      "modelo": "Lancer evolucion",
+      "color": "Rojo",
+      "id": "g4j3gvfd4fc"
+    }
+  ]
+}
