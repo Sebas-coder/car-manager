@@ -3,7 +3,7 @@ import { fetchCars } from "../../api/carsAPI";
 
 const initialState = {
   cars: [],
-  loading: false,
+  loading: true,
   error: null,
 };
 
@@ -16,7 +16,7 @@ const carSlice = createSlice({
   name: "cars",
   initialState,
   reducers: {
-    addCar(state, action) {
+    pushCar(state, action) {
       state.cars.push({
         ...action.payload,
       });
@@ -51,6 +51,10 @@ const carSlice = createSlice({
 
 export const selectCars = (state) => state.cars;
 
-export const { addCar, deleteCar, updateCar } = carSlice.actions;
+const addCar = (newCar) => {
+  dispatchEvent()
+};
+
+export const { pushCar, deleteCar, updateCar } = carSlice.actions;
 
 export default carSlice.reducer;
